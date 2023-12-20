@@ -1,0 +1,63 @@
+.logo {
+    width: 50px;
+}
+
+.post-meta {
+    color: #888;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.post-content {
+    line-height: 1.5;
+}
+
+footer {
+    background-color: rgb(62, 62, 62);
+    padding: 10px;
+    color: #888;
+    font-size: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    margin-top: 10px;
+}
+
+img {
+    margin-bottom: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+.carousel .carousel-item {
+    height: 600px;
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 600px;
+}
+
+.carousel-content {
+    position: absolute;
+    bottom: 55%;
+    z-index: 20;
+    color: white;
+    text-align: center;
+    text-shadow: 0 1px 5px rgba(0, 0, 0, 0.6);
+    background-color: rgba(141, 141, 141, 0.5);
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
